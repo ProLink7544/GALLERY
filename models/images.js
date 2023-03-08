@@ -10,7 +10,7 @@ var imageSchema = new Schema({
 
 });
 
-// convert the schema into a Model
+// convert    the schema into a Model
 let Image = mongoose.model('Image', imageSchema);
 
 module.exports = Image;
