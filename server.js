@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const path = require('path');
 const config = require('./_config');
 
-// Define routes
+//      Define routes
 let index = require('./routes/index');
 let image = require('./routes/image');
 
